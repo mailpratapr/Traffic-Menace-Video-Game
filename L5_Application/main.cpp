@@ -120,7 +120,8 @@ int main(void)
         u3.init(WIFI_BAUD_RATE, WIFI_RXQ_SIZE, WIFI_TXQ_SIZE);
         scheduler_add_task(new wifiTask(Uart3::getInstance(), PRIORITY_LOW));
     #endif
-        printf("testing the commit");
+        printf("testing the commit - Ken");
+        printf("testing the commit - Arnold");
     scheduler_start(); ///< This shouldn't return
     return -1;
 }
