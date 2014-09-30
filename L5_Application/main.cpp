@@ -122,6 +122,7 @@ int main(void)
     #endif
         printf("testing the commit - Ken");
         printf("testing the commit - Arnold");
+        printf("testing the commit - Arpit");
     scheduler_start(); ///< This shouldn't return
     return -1;
 }
